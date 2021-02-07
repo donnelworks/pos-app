@@ -13,10 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Login
 Route::get('/', function () {
-    return view('welcome');
+    return view('login');
 });
 
+// Dashboard
 Route::get('/dashboard', function () {
     return view('dashboard', ['judul'=>'Dashboard']);
 });
