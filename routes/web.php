@@ -19,6 +19,7 @@ Route::get('/', function () {
 });
 
 // Dashboard
-Route::get('/dashboard', function () {
-    return view('dashboard', ['judul'=>'Dashboard']);
-});
+Route::get('dashboard', 'Dashboard@index');
+
+// User
+Route::get('user', 'utilitas\User@index');
