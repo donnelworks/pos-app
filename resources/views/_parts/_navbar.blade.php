@@ -54,14 +54,17 @@
         </span>
         <div class="dropdown-divider"></div>
         <a href="javascript:void(0)" class="dropdown-item">
-          <span class="text-muted"><i class="far fa-user mr-2"></i> Profile</span>
+          <i class="bx bx-user-circle mr-2"></i> Profile
         </a>
         <a href="javascript:void(0)" class="dropdown-item">
-          <span class="text-muted"><i class="fas fa-cog mr-2"></i> Setting</span>
+          <i class="bx bx-store-alt mr-2"></i> Informasi Usaha
+        </a>
+        <a href="javascript:void(0)" class="dropdown-item">
+          <i class="bx bx-cog mr-2"></i> Setting Akun
         </a>
         <div class="dropdown-divider"></div>
         <a href="javascript:void(0)" class="dropdown-item mb-2">
-          <span class="text-muted"><i class="fas fa-power-off mr-2"></i> Keluar</span>
+          <i class="bx bx-power-off mr-2"></i> Keluar
         </a>
       </div>
     </li>

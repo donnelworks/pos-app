@@ -18,7 +18,7 @@
   <!-- Main content -->
   <section class="content">
     <div class="container-fluid">
-
+      <span class="badge bg-purple">Admin</span>
     </div>
   </section>
   <!-- /Main content -->

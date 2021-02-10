@@ -3407,7 +3407,7 @@ input[type="button"].btn-block {
   padding: 0.25rem 1rem;
   clear: both;
   font-weight: 400;
-  color: #212529;
+  color: #6C757D;
   text-align: inherit;
   white-space: nowrap;
   background-color: transparent;
@@ -3415,7 +3415,7 @@ input[type="button"].btn-block {
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
-  color: #16181b;
+  color: #6C757D;
   text-decoration: none;
   background-color: #f8f9fa;
 }
@@ -5141,9 +5141,9 @@ input[type="button"].btn-block {
 
 .badge {
   display: inline-block;
-  padding: 0.25em 0.25em;
+  padding: 0.25em 0.5em;
   font-size: 75%;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1;
   text-align: center;
   white-space: nowrap;
@@ -11814,7 +11814,7 @@ body.sidebar-collapse:not(.sidebar-mini-md):not(.sidebar-mini) .main-header::bef
 .brand-link .brand-image {
   float: left;
   line-height: .8;
-  margin-left: .8rem;
+  margin-left: .5rem;
   margin-right: .5rem;
   margin-top: -3px;
   max-height: 30px;
@@ -11825,7 +11825,7 @@ body.sidebar-collapse:not(.sidebar-mini-md):not(.sidebar-mini) .main-header::bef
   float: left;
   line-height: .8;
   margin-top: -.1rem;
-  max-height: 33px;
+  max-height: 30px;
   width: auto;
 }
 
@@ -13821,8 +13821,8 @@ body.text-sm .control-sidebar {
 }
 
 .navbar-nav > .user-menu > .dropdown-menu {
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
   padding: 0;
   /* width: 280px; */
 }

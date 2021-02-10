@@ -19,7 +19,7 @@ Route::get('/', function () {
 });
 
 // Dashboard
-Route::get('dashboard', 'Dashboard@index');
+Route::get('/dashboard', 'Dashboard@index');
 
-// User
-Route::get('user', 'utilitas\User@index');
+// Pegawai
+Route::get('/pegawai', 'pegawai\Pegawai@index');
