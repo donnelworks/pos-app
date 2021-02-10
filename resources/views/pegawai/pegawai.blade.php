@@ -18,7 +18,36 @@
   <!-- Main content -->
   <section class="content">
     <div class="container-fluid">
-      <span class="badge bg-purple">Admin</span>
+
+      <div class="row">
+        <div class="col-12">
+
+          <div class="card">
+            <div class="card-body p-0">
+              <table class="table table-striped table-hover">
+                <thead>
+                  <tr>
+                    <th style="width: 10px">#</th>
+                    <th>Task</th>
+                    <th>Progress</th>
+                    <th style="width: 40px">Label</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  @foreach ($pegawai as $row)
+                  <tr>
+                    td
+                  </tr>
+                  @endforeach
+                </tbody>
+              </table>
+            </div>
+            <!-- /.card-body -->
+          </div>
+
+        </div>
+      </div>
+
     </div>
   </section>
   <!-- /Main content -->

@@ -380,14 +380,6 @@
           </a>
         </li>
 
-        <!-- PAJAK -->
-        <li class="nav-item">
-          <a href="javascript:void(0)" class="nav-link">
-            <i class="nav-icon bx bx-cut"></i>
-            <p>Pajak (PB1)</p>
-          </a>
-        </li>
-
         <!-- DISKON MENU -->
         <li class="nav-item">
           <a href="javascript:void(0)" class="nav-link">
