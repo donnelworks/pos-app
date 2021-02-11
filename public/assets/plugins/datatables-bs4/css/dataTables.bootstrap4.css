@@ -1,7 +1,7 @@
 table.dataTable {
   clear: both;
-  margin-top: 6px !important;
-  margin-bottom: 6px !important;
+  /* margin-top: 6px !important; */
+  /* margin-bottom: 6px !important; */
   max-width: none !important;
   border-collapse: separate !important;
   border-spacing: 0;
@@ -51,7 +51,7 @@ div.dataTables_wrapper div.dataTables_paginate {
   text-align: right;
 }
 div.dataTables_wrapper div.dataTables_paginate ul.pagination {
-  margin: 2px 0;
+  margin: 5px 5px;
   white-space: nowrap;
   justify-content: flex-end;
 }
@@ -187,7 +187,7 @@ table.table-bordered.dataTable td {
 table.table-bordered.dataTable th:last-child, table.table-bordered.dataTable th:last-child,
 table.table-bordered.dataTable td:last-child,
 table.table-bordered.dataTable td:last-child {
-  border-right-width: 1px;
+  border-right-width: 0;
 }
 table.table-bordered.dataTable tbody th,
 table.table-bordered.dataTable tbody td {
