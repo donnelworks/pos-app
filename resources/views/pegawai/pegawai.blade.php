@@ -21,22 +21,28 @@
 
       <div class="row">
         <div class="col-12">
-
           <div class="card">
-            <div class="card-body p-0">
+            <div class="card-body table-responsive p-0">
               <table class="table table-striped table-hover">
                 <thead>
                   <tr>
-                    <th style="width: 10px">#</th>
-                    <th>Task</th>
-                    <th>Progress</th>
-                    <th style="width: 40px">Label</th>
+                    <th>Foto</th>
+                    <th>Nama</th>
+                    <th>No. Tlp.</th>
+                    <th>Email</th>
+                    <th>Jabatan</th>
+                    <th>Level</th>
                   </tr>
                 </thead>
                 <tbody>
                   @foreach ($pegawai as $row)
                   <tr>
-                    td
+                    <td>{{ $row->foto_pegawai }}</td>
+                    <td>{{ $row->nama_pegawai }}</td>
+                    <td>{{ $row->tlp_pegawai }}</td>
+                    <td>{{ $row->email_pegawai }}</td>
+                    <td>{{ $row->jabatan_pegawai }}</td>
+                    <td>{{ $row->level_pegawai }}</td>
                   </tr>
                   @endforeach
                 </tbody>
@@ -44,7 +50,37 @@
             </div>
             <!-- /.card-body -->
           </div>
+        </div>
 
+        <div class="col-12">
+          <div class="card">
+            <div class="card-body">
+              <table id="tblData" class="table table-bordered table-striped">
+                <thead>
+                  <tr>
+                    <th>Foto</th>
+                    <th>Nama</th>
+                    <th>No. Tlp.</th>
+                    <th>Email</th>
+                    <th>Jabatan</th>
+                    <th>Level</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  @foreach ($pegawai as $row)
+                  <tr>
+                    <td>{{ $row->foto_pegawai }}</td>
+                    <td>{{ $row->nama_pegawai }}</td>
+                    <td>{{ $row->tlp_pegawai }}</td>
+                    <td>{{ $row->email_pegawai }}</td>
+                    <td>{{ $row->jabatan_pegawai }}</td>
+                    <td>{{ $row->level_pegawai }}</td>
+                  </tr>
+                  @endforeach
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -55,12 +91,13 @@
 </div>
 @endsection
 
-@section('script')
+@push('script')
 <script type="text/javascript">
   $(document).ready(function() {
 
+    $('#tblData').DataTable();
 
 
   });
 </script>
-@endsection
+@endpush

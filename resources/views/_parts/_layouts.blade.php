@@ -38,7 +38,7 @@
     <!-- /Script File -->
 
     <!-- Document Script -->
-    @yield('script')
+    @stack('script')
     <!-- /Document Script -->
 
   </body>
