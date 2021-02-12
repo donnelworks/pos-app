@@ -23,7 +23,7 @@
         <div class="col-12">
           <div class="card">
             <div class="card-body p-0">
-              <table id="tblData" class="table table-hover table-striped dt-responsive">
+              <table id="tblData" class="table table-hover table-striped dt-responsive" style="width: 100%;">
                 <thead>
                   <tr>
                     <th>Foto</th>

@@ -1,7 +1,7 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-0">
   <a href="{{ url('dashboard') }}" class="brand-link text-center">
     <img src="{{ asset('assets/dist/img/logo.svg') }}" alt="Logo" class="brand-image-xs">
-    <span style="font-family: 'Fredoka One', cursive;" class="brand-text font-weight-medium text-light text-center">
+    <span style="font-family: 'Montserrat', cursive;" class="brand-text font-weight-bold text-light text-center">
       MOFFIN
     </span>
   </a>
@@ -387,7 +387,7 @@
             <p>Diskon Menu</p>
           </a>
         </li>
-        
+
       </ul>
     </nav>
     <!-- /Sidebar Menu -->
